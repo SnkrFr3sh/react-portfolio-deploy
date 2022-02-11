@@ -1,12 +1,31 @@
 import React from 'react';
+// import CountButton from '../CountButton';
+import '../ArtMediums.css'
+
 
 export default function ArtMediums() {
   return (
     <div>
-      <h1>Art Mediums</h1>
-      <p>Photography</p>
-      <p>Paper Collaging</p>
-      <p>Movement & Choreography</p>
+      <section class="ArtMediumWrapper">
+        <div class="ArtMediumTitleBox">
+          <h3>Art Mediums</h3>
+        </div>
+        <div class='ArtMediumContent'>
+        <div>
+        <p>Photography</p>
+        {/* <CountButton incrementBy={1} /> */}
+        </div>
+        <div>
+        <p>Paper Collaging</p>
+        {/* <CountButton incrementBy={5} /> */}
+        </div>
+        <div>
+
+        <p>Movement & Choreography</p>
+        {/* <CountButton incrementBy={10} /> */}
+        </div>
+        </div>
+      </section>
     </div>
   );
 }

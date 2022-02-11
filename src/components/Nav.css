@@ -1,0 +1,42 @@
+:root {
+    --black: #000000;
+    --white: #fff;
+    --dark-brown: #3c1c14fb;
+    --khaki: #E7C896;
+    --med-brown: #85684A;
+    --light-brown: #A48467;
+    --grey-brown: #9C7C74;
+    --dark-grey: #212529;
+    --lightgrey: rgb(167, 167, 167);
+    --white: white;
+    --green: #284328;
+    --medgreen: #357335;
+    --medgrey:  rgb(95, 95, 95);
+    --yellow:yellow;
+
+
+}
+
+.nav-link {
+    color: white !important;
+    border: 0px !important;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+    border-bottom: 1px solid white !important;
+    transition: all ease-in-out .4s;
+}
+
+
+.nav-link.active {
+    background-color: black !important ;
+    border-bottom: 1px solid white !important;
+
+
+
+}
+
+.nav-tabs {
+    border-bottom: 0px !important;
+}
