@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import AboutMe from './pages/AboutMe';
-import ArtMediums from './pages/ArtMediums';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import WebProjects from './pages/WebProjects';
@@ -18,7 +17,7 @@ const PortfolioContainer = () => {
         } else if (currentPage === 'WebProjects') {
             return <WebProjects />
         } else if (currentPage === 'Resume') {
-            return <Resume />
+            return <Resume/>
         } else return <Contact />
     }
 
