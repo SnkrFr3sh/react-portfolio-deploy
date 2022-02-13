@@ -40,14 +40,21 @@
     padding-top: 10px !important;
 }
 
-.resumeBtn{
+.resumeDL{
     background-color: var(--medgrey);
     border: 2px solid #212529;
     border-radius: 5px;
     color: var(--white);
     padding: 5px;
     font-family: 'Reem Kufi';
+    text-decoration: none;
 
+}
+
+.resumeDL:hover{
+    color: var(--white);
+    background-color: var(--dark-grey);
+    border: 2px solid #fff;
 }
 
 .buttonRow{

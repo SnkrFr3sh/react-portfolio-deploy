@@ -10,7 +10,7 @@ export default function Resume() {
     <div>
       <div class='ResumeBody'>
         <div class='buttonRow'>
-          <button class='resumeBtn' onClick={ExternalLink}>DOWNLOAD</button>
+          <a href='https://drive.google.com/file/d/13Q4aYMW2-QulCvVD3mwwaHy4w47bwG5b/view' target='_blank' class='resumeDL'>DOWNLOAD</a>
         </div>
         <div class='row resumeRow'>
           <div class='col-3'>
