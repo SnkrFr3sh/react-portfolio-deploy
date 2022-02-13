@@ -73,10 +73,10 @@ bottom:170px;
 
 
 .aboutImg {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     z-index: 10;
-    height:600px;
+    height:700px;
 }
 
 .AboutMeContent {

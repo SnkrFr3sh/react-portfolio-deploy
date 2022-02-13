@@ -43,12 +43,13 @@
 }
 
 .buildingImg{
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     z-index: 10;
     right:0;
     margin-right: 70px;
     height: 500px;
+    opacity: .7;
     
     
 }
@@ -61,6 +62,12 @@
     margin-top:300px;
     margin-left: 790px;
     z-index: 900;
+    background-color: var(--dark-grey);
+    opacity: .7;
+}
+
+.techText{
+    padding: 10px;
 }
 
 .techBoxTitle {
@@ -101,5 +108,81 @@
 }
 
 
+.projectBoxSection{
+    position: absolute;
+    height: 450px;
+    width: 600px;
+    background-color: var(--bluegreenOne);
+    margin-top: 250px;
+    margin-left: 120px;
+    border-radius: 3px;
 
 
+}
+
+.pCard{
+    color: var(--bluegreenText);
+    font-family: 'Reem Kufi';
+    width: 160px;
+    height: 190px;
+    border-radius: 3px;
+    z-index: 15;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pCard1{
+    position: absolute;
+    background-color: var(--bluegreenTwo);
+    margin-top: 270px;
+    margin-left: 140px;
+}
+
+
+.pCard2{
+    position: absolute;
+    background-color: var(--bluegreenTwo);
+    margin-top: 270px;
+    margin-left: 340px;
+}
+
+
+.pCard3{
+    position: absolute;
+    background-color: var(--bluegreenTwo);
+    margin-top: 270px;
+    margin-left: 540px;
+}
+
+
+.pCard4{
+    position: absolute;
+    background-color: var(--bluegreenTwo);
+    margin-top: 480px;
+    margin-left: 140px;
+}
+
+
+.pCard5{
+    position: absolute;
+    background-color: var(--bluegreenTwo);
+    margin-top: 480px;
+    margin-left: 340px;
+}
+.pCard6{
+    position: absolute;
+    background-color: var(--bluegreenTwo);
+    margin-top: 480px;
+    margin-left: 540px;
+}
+
+
+
+
+
+.project{
+    width: 100px;
+    height: 100px;
+    background-color: var(--bluegreenOne);
+
+}
