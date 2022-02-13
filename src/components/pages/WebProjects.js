@@ -8,7 +8,7 @@ export default function WebProjects() {
       <div class='WebProjectsCardBox'></div>
       <div class='WebProjectsTitleBox'></div>
       <div class='webTitle1'>WEB</div>
-      <div class='webTitle2'>DEVELOPMENT</div>
+      <div class='webTitle2'>PROJECTS</div>
       <div class='WebProjectsContentBox'></div>
         <div class='techBox'></div>
         <div class="techBoxTitle">TECHNOLOGIES</div>

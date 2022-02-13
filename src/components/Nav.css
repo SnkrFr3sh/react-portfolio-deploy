@@ -32,6 +32,7 @@
 .nav-link.active {
     background-color: var(--dark-grey) !important ;
     border-bottom: 1px solid white !important;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .nav-item{
@@ -49,7 +50,7 @@ nav{
     height:40px;
     background-color: transparent;
     z-index: 100;
-
+    font-family: 'Reem Kufi';
   }
 
 .rotate{

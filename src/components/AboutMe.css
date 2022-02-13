@@ -5,12 +5,13 @@
     --blueTwo: #0e3769;
     --blueTitle: #001859;
     --bluetext: #fbfbfc;
+    --greenshade: #bac7bf;
 
 
 }
 
 .AboutMeBody {
-    background-color: var(--blueOne);
+    background-color:var(--blueTitle);
     height: 100vh;
     width: 100vw;
     position: absolute
@@ -85,4 +86,5 @@ bottom:170px;
     max-width: 450px;
     margin-top: 300px;
     margin-left: 350px;
+    z-index: 900;
 }

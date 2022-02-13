@@ -10,29 +10,29 @@
 
 
 .landingBody{
-    background-color: var(--purpleone);
+    background-color: var(--dark-grey);
     height: 100vh;
     width: 100vw;
     position:absolute
 }
 
 .shadedBox{
-    height: 175px;
+    height: 270px;
     width:80%;
-    background-color: var(--purpletwo);
-    margin-top: 50px;
+    background-color: var(--medgrey);
+    margin-top: 30px;
     position:absolute;
-    margin-left: 20%;
     z-index: 3;
 }
 
 .titleFirstName {
     font-family: 'Reem Kufi';
     font-size: 150PX;
-    color: var(--purpletitle);
+    color: var(--dark-grey);
     /* font-weight:bolder; */
     position:absolute;
-    margin-left: 415px;
+    margin-left: 50px;
+    margin-top: 70px;
     z-index:10;
     letter-spacing: -0.1em;
 
@@ -40,10 +40,10 @@
 
 .titleLastName{
     font-size: 64px;
-    color: var(--purpletitle);
+    color: var(--dark-grey);
     position: absolute;
-    margin-top: 146px;
-    margin-left: 423px;
+    margin-top: 210px;
+    margin-left: 59px;
     z-index: 10;
     font-family: 'Reem Kufi';
     letter-spacing: -0.02em;
@@ -64,38 +64,8 @@
     position: absolute;
     margin-left: 820px;
     font-family: 'Reem Kufi';
-}
-
-.A{
-    margin-top: 60px;
-}
-
-.B{
-    margin-top: 105px;
-}
-
-.C{
-    margin-top: 150px;
-}
-
-.letterA{
-    color: var(--imggrey);
-}
-
-
-.A:hover {
-    color: var(--imggrey);
-    
-}
-.B:hover{
-    color: var(--imggrey);
-}
-.C:hover{
-    color: var(--imggrey);
-}
-
-.A:hover ~ .letterA {
-    color: var(--imggrey);
+    transform: rotate(-270deg);
+    justify-content: left;
 }
 
 
@@ -104,8 +74,8 @@
     color: var(--imggrey);
     position: absolute;
     z-index: 10;
-    margin-left: 260px;
-    margin-top: 82px;
+    margin-left: 58px;
+    margin-top: 20px;
     font-weight: bold;
     font-family: 'Reem Kufi';
 }
@@ -138,6 +108,49 @@ bottom:170px;
     z-index: 11;
     position: absolute;
 }
+
+.run{
+    height: 100vh
+}
+
+.run1{
+    position: fixed;
+    margin-left: 300px;
+    z-index: 10;
+
+}
+
+.run2{
+    position: fixed;
+    margin-left: 400px;;
+    z-index: 9;
+}
+
+.run3{
+    position: fixed;
+    margin-left: 500px;
+    z-index: 8;
+    
+}
+.run4{
+    position: fixed;
+    margin-left: 600px;
+    z-index: 7;
+    
+}
+
+
+.run2:hover{
+    z-index: 11;
+}
+.run3:hover{
+    z-index: 11;
+}
+.run4:hover{
+    z-index: 11;
+}
+
+
 
 
 

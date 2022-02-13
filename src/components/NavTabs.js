@@ -1,6 +1,5 @@
 import React from 'react';
 import './Nav.css'
-import ExternalLink from './ExternalLink';
 
 
 function NavTabs({ currentPage, handlePageChange }) {

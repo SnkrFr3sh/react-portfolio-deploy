@@ -46,8 +46,10 @@
     position: absolute;
     bottom: 0px;
     z-index: 10;
-    margin-left: 150px;
+    right:0;
+    margin-right: 70px;
     height: 500px;
+    
     
 }
 
@@ -56,8 +58,9 @@
     color: var(--white);
     position: absolute;
     max-width: 200px;
-    margin-top:250px;
-    margin-left: 150px;
+    margin-top:300px;
+    margin-left: 790px;
+    z-index: 900;
 }
 
 .techBoxTitle {
@@ -66,8 +69,8 @@
     color: var(--yellowdark);
     /* font-weight:bolder; */
     position: absolute;
-    margin-left: 150px;
-    margin-top: 200px;
+    margin-left: 780px;
+    margin-top: 250px;
     z-index: 10;
     letter-spacing: -0.1em;
 }
@@ -78,7 +81,7 @@
     color: var(--bluegreenTwo);
     /* font-weight:bolder; */
     position: absolute;
-    margin-left: 350px;
+    margin-left: 150px;
     margin-top: 20px;
     z-index: 10;
     letter-spacing: -0.1em;
@@ -91,7 +94,7 @@
     color: var(--yellowlight);
     /* font-weight:bolder; */
     position: absolute;
-    margin-left: 440px;
+    margin-left: 240px;
     margin-top: 100px;
     z-index: 10;
     letter-spacing: -0.1em;
