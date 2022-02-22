@@ -1,0 +1,111 @@
+:root{
+    --contactTwo: #f24149;
+    --contactOne: #a71e3d;
+    --contactTitle:#79172b;
+    --contactText:#c1977a;
+    --contactBlue: #04a4e8;
+    --contactYellow: #efdd6e;
+}
+
+.contactBody{
+    background-color: var(--contactOne);
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+}
+
+.shadedBoxTitle{
+    height: 100px;
+    width:80%;
+    background-color: var(--contactTitle);
+    margin-top: 50px;
+    position:absolute;
+    z-index: 3;
+}
+
+.contactTitle1{
+    color: var(--contactTwo);
+    font-family: 'Reem Kufi';
+    font-size: 90px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left:100px;
+    z-index: 10;
+}
+
+.contactTitle2{
+    color: var(--contactTitle);
+    font-family: 'Reem Kufi';
+    font-size: 100px;
+    position: absolute;
+    margin-top: 110px ;
+    margin-left:100px;
+    z-index: 10;
+}
+
+.hilltop{
+    z-index: 10;
+    position:fixed;
+    bottom:0;
+}
+
+.mountain{
+    position: fixed;
+    bottom:0;
+}
+
+.shadedBoxContent{
+    height: 300px;
+    width:60%;
+    background-color: var(--contactTitle);
+    margin-top: 250px;
+    margin-left: 108px;
+    position:absolute;
+    z-index: 20;
+    opacity: .9;
+    border-radius: 3px;
+}
+
+.contactText{
+    font-family: 'Reem Kufi';
+    font-size: 30PX;
+    margin: 30px;
+}
+
+@media screen and (max-width: 420px) {
+    .shadedBoxTitle{
+        width:100%;
+        height: 80px;
+    }
+    .contactTitle1{
+        margin-left:20px;
+        z-index: 10;
+        font-size: 75px;
+    }
+    
+    .contactTitle2{
+        font-size: 90px;
+        margin-left:244px;
+        margin-top: 95px;
+
+    }
+    .shadedBoxContent{
+        height: 300px;
+        margin-top: 230px;
+        margin-left: 20px;
+        opacity: .8;
+        margin-right: 20px;
+        min-width: 350px;
+    }
+
+    .contactText{
+        font-size: 25PX;
+        margin: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 420px;
+    }
+    
+
+
+}

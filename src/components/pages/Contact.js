@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Contact.css';
-import hill from '../assets/hillLayerColor.png';
-import mountain from '../assets/mountainLayerColor.png';
+import '../assets/css/Contact.css';
+import hill from '../assets/images/hillLayerColor.png';
+import mountain from '../assets/images/mountainLayerColor.png';
 
 export default function Contact() {
   return (
@@ -12,8 +12,8 @@ export default function Contact() {
       <div className='shadedBoxContent'>
         <div className='contactText'>
           <p> EMAIL: Mpacampara@gmail.com</p>
-          <p> GITHUB: SnkrFr3sh</p>
-          <a href='https://www.linkedin.com/in/marc-pacampara-b75a4bba/'>LinkedIn</a>
+          <p><a href= 'https://github.com/SnkrFr3sh'> GITHUB</a></p>
+          <p><a href='https://www.linkedin.com/in/marc-pacampara-b75a4bba/'>LinkedIn</a></p>
 
 
         </div>

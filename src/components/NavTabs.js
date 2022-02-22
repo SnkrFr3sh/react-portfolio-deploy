@@ -1,5 +1,5 @@
 import React from 'react';
-import './Nav.css'
+import './assets/css/Nav.css'
 
 
 function NavTabs({ currentPage, handlePageChange }) {
@@ -8,7 +8,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     <section
       style={{
         display: 'flex',
-        fontFamily: 'helvetica',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',

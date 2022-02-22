@@ -1,12 +1,12 @@
 import React from 'react';
-import '../WebProjects.css'
-import buildingVector from '../assets/buildingVector.png'
-import p1 from '../assets/project1.jpeg'
-import p2 from '../assets/project2.png'
-import p3 from '../assets/project3.png'
-import p4 from '../assets/project4.png'
-import p5 from '../assets/project5.png'
-import p6 from '../assets/project6.png'
+import '../assets/css/WebProjects.css'
+import buildingVector from '../assets/images/buildingVector.png'
+import p1 from '../assets/images/project1.jpeg'
+import p2 from '../assets/images/project2.png'
+import p3 from '../assets/images/project3.png'
+import p4 from '../assets/images/project4.png'
+import p5 from '../assets/images/project5.png'
+import p6 from '../assets/images/project6.png'
 
 export default function WebProjects() {
   return (

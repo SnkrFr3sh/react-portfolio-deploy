@@ -1,8 +1,7 @@
 import React from 'react';
-import '../Resume.css'
-import ResumeBack from '../assets/resumeBack.jpg';
-import ResumeFront from '../assets/resumeFront.jpg';
-import ExternalLink from '../ExternalLink.js'
+import '../assets/css/Resume.css'
+import ResumeBack from '../assets/images/resumeBack.jpg';
+import ResumeFront from '../assets/images/resumeFront.jpg';
 
 
 export default function Resume() {

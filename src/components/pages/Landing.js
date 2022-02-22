@@ -1,10 +1,10 @@
 import React from 'react';
-import '../Landing.css'
+import '../assets/css/Landing.css'
 // import LandingImage from '../assets/landingimg.jpg'
-import run1 from '../assets/runVectorMain.png'
-import run2 from '../assets/runArtist.png'
-import run3 from '../assets/runChoreo.png'
-import run4 from '../assets/runWeb.png'
+import run1 from '../assets/images/runVectorMain.png'
+import run2 from '../assets/images/runArtist.png'
+import run3 from '../assets/images/runChoreo.png'
+import run4 from '../assets/images/runWeb.png'
 
 
 

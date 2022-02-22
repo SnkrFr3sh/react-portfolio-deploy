@@ -1,6 +1,6 @@
 import React from 'react';
 // import CountButton from '../CountButton';
-import '../ArtMediums.css'
+import '../assets/css/ArtMediums.css'
 
 
 export default function ArtMediums() {
